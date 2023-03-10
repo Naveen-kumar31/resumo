@@ -158,7 +158,7 @@ const UserDataCollect = () => {
     
 
     const addToList = () => {
-        axios.post("http://localhost:3001/insert", {
+        axios.post("https://resumo-backend.onrender.com/insert", {
           regnum: regnum,
           dept: dept,
           role: role,
